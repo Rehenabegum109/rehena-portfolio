@@ -28,14 +28,16 @@ const Navbar = () => {
         </nav>
 
         {/* Social Icons */}
-        <div className="hidden md:flex space-x-3">
-          <a href="https://github.com/yourname" target="_blank" rel="noreferrer">
-            <FaGithub className="w-5 h-5 hover:text-gray-300" />
-          </a>
-          <a href="https://linkedin.com/in/yourname" target="_blank" rel="noreferrer">
-            <FaLinkedin className="w-5 h-5 hover:text-blue-400" />
-          </a>
-        </div>
+       <div className="hidden md:flex space-x-3">
+  <a href="https://github.com/RehenaBegum109" target="_blank" rel="noreferrer">
+    <FaGithub className="w-5 h-5 hover:text-red-500" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/rehena-begum-057894396" target="_blank" rel="noreferrer">
+    <FaLinkedin className="w-5 h-5 hover:text-red-500" />
+  </a>
+</div>
+
 
         {/* Mobile Hamburger */}
         <button className="md:hidden" onClick={() => setOpen(!open)} aria-label="Toggle menu">
@@ -47,12 +49,12 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-gray-800 px-6 py-4 space-y-2">
-          <button onClick={() => handleScroll('home')} className="block py-2 w-full text-left hover:text-blue-400">Home</button>
-          <button onClick={() => handleScroll('about')} className="block py-2 w-full text-left hover:text-blue-400">About Me</button>
-          <button onClick={() => handleScroll('skills')} className="block py-2 w-full text-left hover:text-blue-400">Skills</button>
-          <button onClick={() => handleScroll('projects')} className="block py-2 w-full text-left hover:text-blue-400">Projects</button>
-          <button onClick={() => handleScroll('contact')} className="block py-2 w-full text-left hover:text-blue-400">Contact</button>
+        <div className="md:hidden bg-[#1dd1a1] px-6 py-4 space-y-2">
+          <button onClick={() => handleScroll('home')} className="block py-2 w-full text-left hover:text-red-500">Home</button>
+          <button onClick={() => handleScroll('about')} className="block py-2 w-full text-left hover:text-red-500">About Me</button>
+          <button onClick={() => handleScroll('skills')} className="block py-2 w-full text-left hover:text-red-500">Skills</button>
+          <button onClick={() => handleScroll('projects')} className="block py-2 w-full text-left hover:text-red-500">Projects</button>
+          <button onClick={() => handleScroll('contact')} className="block py-2 w-full text-left hover:text-red-500">Contact</button>
         </div>
       )}
     </header>

@@ -28,7 +28,7 @@ const Banner = () => {
             transition={{ delay: 0.5 }}
           >
             <a 
-              href="/Rehena_Resume.pdf" 
+              href="/Rehena Begum-resume-1.pdf" 
               download 
               className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition transform hover:scale-105"
             >
@@ -50,14 +50,12 @@ const Banner = () => {
             transition={{ delay: 0.7 }}
           >
             <a href="https://github.com/Rehenabegum109" target="_blank" rel="noreferrer">
-              <FaGithub className="hover:text-blue-400 transition" />
+              <FaGithub className="hover:text-red-500 transition" />
             </a>
-            <a href="https://linkedin.com/in/rehena-begum-057894396" target="_blank" rel="noreferrer">
-              <FaLinkedin className="hover:text-blue-400 transition" />
+            <a href="https://www.linkedin.com/in/rehena-begum-057894396" target="_blank" rel="noreferrer">
+              <FaLinkedin className="hover:text-red-500 transition" />
             </a>
-            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-              <FaTwitter className="hover:text-blue-400 transition" />
-            </a>
+            
           </motion.div>
         </motion.div>
 
