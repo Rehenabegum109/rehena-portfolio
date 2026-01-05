@@ -11,8 +11,11 @@ import Footer from '../Footer/Footer';
 const Homepage = () => {
     return (
         <div>
-            <Navbar></Navbar>
+              <Navbar></Navbar>
+            
             <div className='bg-gradient-to-br from-black via-blue-900 to-blue-700'>
+              
+                <hr />
             <Banner/>
             <About/>
             <Skills/>

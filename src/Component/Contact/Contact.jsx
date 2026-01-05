@@ -7,7 +7,7 @@ const Contact = () => {
     {
       icon: <FaEnvelope className="text-blue-400 w-10 h-10 mx-auto mb-4" />,
       title: "Email",
-      info: "yourEmail@gmail.com",
+      info: "rehenabegum999000@gmail.com",
       color: "hover:shadow-blue-500",
     },
     {

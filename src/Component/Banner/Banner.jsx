@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import img from '../../assets/Image/WhatsApp Image 2025-11-29 at 18.49.48_a61ddab3.jpg';
-import { motion } from 'framer-motion'; // animation library
+import { motion } from 'framer-motion'; 
 
 const Banner = () => {
   return (
@@ -28,7 +28,7 @@ const Banner = () => {
             transition={{ delay: 0.5 }}
           >
             <a 
-              href="/Rehena Begum-resume-1.pdf" 
+              href="/Rehena Begum-resume-frontend.pdf" 
               download 
               className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition transform hover:scale-105"
             >

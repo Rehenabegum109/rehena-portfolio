@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-[#1dd1a1] text-black sticky top-0 z-50 shadow">
+    <header className=" text-white   bg-[#818cf8] sticky top-0 z-50 shadow">
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16">
       <img className='w-[80px] h-[30px]' src={logo} alt="" />
 
